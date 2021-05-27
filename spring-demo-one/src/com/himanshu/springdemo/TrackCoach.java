@@ -21,4 +21,14 @@ public class TrackCoach implements Coach {
 		return fortuneService.getFortune();
 	}
 
+	// add an init method
+	public void doMyStartupStuff() {
+		System.out.println(" Inside Startup ");
+	}
+	
+	
+	// add a destroy method - custom hook
+	public void doMyCleanupStuff() {
+		System.out.println(" Inside Cleanup ");
+	}
 }
