@@ -3,7 +3,9 @@
 <html>
 	<body>
 		Hello World of Spring
-		<br> </br>
+		<br> 
 		Student Name: ${param.studentName }
+		<br>
+		The message: ${message}
 	</body>
 </html>
